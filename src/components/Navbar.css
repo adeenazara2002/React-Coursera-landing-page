@@ -1,0 +1,129 @@
+.secondary-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo .logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.navbar-dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: black;
+}
+
+.dropdown-btn:hover {
+  color: rgb(0, 86, 210);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  color: rgb(0, 86, 210);
+}
+
+.navbar-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-search {
+  position: relative;
+  flex: 1;
+  margin: 0 15px;
+}
+
+.navbar-search input {
+  width: 60%;
+  padding: 10px 40px 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.search-icon-container {
+  position: absolute;
+  top: 50%;
+  right: 295px;
+  transform: translateY(-50%);
+  background-color: rgb(0, 86, 210);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.search-icon-container i {
+  font-size: 16px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  color: rgb(0, 86, 210);
+}
+
+.join-btn {
+  background-color: rgb(0, 86, 210);
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  background-color: darkblue;
+}
+
+.navbar-links .navbar-link:last-child {
+  margin-right: 20px;
+}
