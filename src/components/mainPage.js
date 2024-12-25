@@ -9,8 +9,9 @@ const MainBody = () => {
       <div className="left-section">
         <h1>Learn without <br></br>limits</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non
-          nunc sit amet mauris vehicula auctor.
+        Professional Certificates, and degrees from world-class universities<br></br>
+        Start, switch, or advance your career with more than 10,000 courses,<br></br>
+        and companies
         </p>
         <div className="buttons">
           <button className="join-btn">Join for Free</button>
