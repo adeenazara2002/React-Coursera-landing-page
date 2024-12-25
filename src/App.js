@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import MainBody from "./components/mainPage";
 
 
 const App = () => {
@@ -8,6 +9,8 @@ const App = () => {
     <div>
       <Header />
       <Navbar />
+      <MainBody />
+
     </div>
   );
 };
