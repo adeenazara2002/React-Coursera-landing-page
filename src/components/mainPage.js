@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainPage.css";
-import CourseraLearning from "../Images/CourseraLearners.png"; 
-import Logo1 from "../Images/illinois.png"; 
+import CourseraLearning from "../Images/CourseraLearners.png";
+import Logo1 from "../Images/illinois.png";
 import Logo2 from "../Images/duke.png";
 import Logo3 from "../Images/google.png";
 import Logo4 from "../Images/imperial.png";
@@ -10,7 +10,6 @@ import Logo6 from "../Images/stanford.png";
 import Logo7 from "../Images/penn.png";
 import Logo8 from "../Images/ibm.png";
 
-
 const MainBody = () => {
   return (
     <div>
@@ -18,10 +17,14 @@ const MainBody = () => {
       <div className="main-body">
         {/* Left Section */}
         <div className="left-section">
-          <h1>Learn without <br></br>limits</h1>
+          <h1>
+            Learn without <br></br>limits
+          </h1>
           <p>
-            Professional Certificates, and degrees from world-class universities<br></br>
-            Start, switch, or advance your career with more than 10,000 courses,<br></br>
+            Professional Certificates, and degrees from world-class universities
+            <br></br>
+            Start, switch, or advance your career with more than 10,000 courses,
+            <br></br>
             and companies
           </p>
           <div className="buttons">
@@ -54,9 +57,32 @@ const MainBody = () => {
           <img src={Logo6} alt="Logo 6" className="logo" />
           <img src={Logo7} alt="Logo 7" className="logo" />
           <img src={Logo8} alt="Logo 8" className="logo" />
-
         </div>
       </div>
+
+      
+      <div class='blue-section'>
+        <div class='leftsection'>
+          <h2 class='choose'>Choose<br></br>your role</h2>
+          <p class='chooseText'>Gain the knowledge and<br></br>skills you need to advance.</p>
+      <button className="joinBtn">Explore all roles</button>
+          
+        </div>
+        <div class='rightsection'>
+      <button className="joinBtn">Explore all roles</button>
+      <button className="joinBtn">Explore all roles</button>
+      <button className="joinBtn">Explore all roles</button>
+      <button className="joinBtn">Explore all roles</button>
+      <button className="joinBtn">Explore all roles</button>
+      <button className="joinBtn">Explore all roles</button>
+      <button className="joinBtn">Explore all roles</button>
+      <button className="joinBtn">Explore all roles</button>
+
+          
+        </div>
+
+      </div>
+
     </div>
   );
 };
