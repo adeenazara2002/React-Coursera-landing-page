@@ -9,6 +9,10 @@ import Logo5 from "../Images/umich.png";
 import Logo6 from "../Images/stanford.png";
 import Logo7 from "../Images/penn.png";
 import Logo8 from "../Images/ibm.png";
+import Card from "./card"; 
+import CardImage1 from "../Images/person1.png"; 
+import CardImage2 from "../Images/person2.png";
+import CardImage3 from "../Images/person3.png";
 
 const MainBody = () => {
   return (
@@ -60,29 +64,53 @@ const MainBody = () => {
         </div>
       </div>
 
-      
-      <div class='blue-section'>
-        <div class='leftsection'>
-          <h2 class='choose'>Choose<br></br>your role</h2>
-          <p class='chooseText'>Gain the knowledge and<br></br>skills you need to advance.</p>
-      <button className="joinBtn">Explore all roles</button>
-          
-        </div>
-        <div class='rightsection'>
-      <button className="joinBtn">Explore all roles</button>
-      <button className="joinBtn">Explore all roles</button>
-      <button className="joinBtn">Explore all roles</button>
-      <button className="joinBtn">Explore all roles</button>
-      <button className="joinBtn">Explore all roles</button>
-      <button className="joinBtn">Explore all roles</button>
-      <button className="joinBtn">Explore all roles</button>
-      <button className="joinBtn">Explore all roles</button>
+      <div className="blue-section">
+  <div className="leftsection">
+    <h2 className="choose">
+      Choose<br />your role
+    </h2>
+    <p className="chooseText">
+      Gain the knowledge and<br />skills you need to advance.
+    </p>
+    <button className="joinBtn">Explore all roles</button>
+  </div>
+  <div className="rightsection">
+    <button className="beginner">Beginner</button>
+    <span className="span">|</span>
+    <button className="popular">Popular</button>
+    <button className="soft">Software Engineering and IT</button>
+    <button className="business">Business</button>
+    <button className="sales">Sales & Marketing</button>
+    <button className="data">Data Science & Analytics</button>
 
-          
-        </div>
+    {/* Cards Section */}
+    <div className="cards-section">
+      <Card
+        imageSrc={CardImage1}
+        heading1="Learn Programming"
+        text1="Enhance your coding skills with our expert-led courses."
+        heading2="Get Certified"
+        text2="Gain industry-recognized certifications to boost your career."
+      />
+      <Card
+        imageSrc={CardImage2}
+        heading1="Learn Programming"
+        text1="Enhance your coding skills with our expert-led courses."
+        heading2="Get Certified"
+        text2="Gain industry-recognized certifications to boost your career."
+      />
+      <Card
+        imageSrc={CardImage3}
+        heading1="Explore Design"
+        text1="Dive into creative design and improve your portfolio."
+        heading2="Career Growth"
+        text2="Advance your career with design thinking methodologies."
+      />
+    </div>
+  </div>
+</div>
 
-      </div>
-
+       
     </div>
   );
 };
