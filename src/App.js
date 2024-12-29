@@ -12,6 +12,7 @@ const App = () => {
       <Header />
       <Navbar />
       <MainBody />
+     
       {/* <Card /> */}
 
     </div>

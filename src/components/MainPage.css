@@ -444,3 +444,71 @@
 .bottomText{
   font-size: 1rem;
 }
+.explore{
+  margin-left: 60px;
+}
+.explorecoursera{
+  font-size: 3rem;
+}
+
+.rectcard {
+  display: flex;
+  width: 100%; 
+  height: 100px;
+  max-width: 500px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rectcard-image {
+  flex: 0 0 30%; /* Image covers 30% of the card */
+  height: 100%; /* Adjust height to fit the card */
+  background-color: #f9f9f9;
+}
+
+.rectcard-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rectcard-content {
+  flex: 1 1 70%; /* Text covers 70% of the card */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rectcard-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0; /* Remove space below the title */
+}
+
+.rectcard-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 0; /* Remove space above the description */
+}
+
+.rectcards-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* .rectcards-title {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+} */
+
+.rectcards-container {
+  display: flex;
+  flex-direction: row; /* Arrange cards vertically */
+  gap: 10px; /* Add space between cards */
+}
+

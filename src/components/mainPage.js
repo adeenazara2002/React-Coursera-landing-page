@@ -11,6 +11,7 @@ import Logo7 from "../Images/penn.png";
 import Logo8 from "../Images/ibm.png";
 import Card from "./card";
 import NewCard from "./newCard";
+import RectCard from "./rectCards";
 import CardImage1 from "../Images/person1.png";
 import CardImage2 from "../Images/person2.png";
 import CardImage3 from "../Images/person3.png";
@@ -22,6 +23,11 @@ import NewnewCardImage1 from "../Images/python.png";
 import NewnewCardImage2 from "../Images/bba.png";
 import NewnewCardImage3 from "../Images/excelPersons.png";
 import NewnewCardImage4 from "../Images/xbox.png";
+import RectCardImage1 from "../Images/data_science.png";
+import RectCardImage2 from "../Images/business.png";
+import RectCardImage3 from "../Images/computer_science.png";
+import RectCardImage4 from "../Images/health.png";
+
 
 const MainBody = () => {
   return (
@@ -224,7 +230,40 @@ const MainBody = () => {
       <div class='bottomTextDiv'>
         <p class='bottomText'>Each university determines admission and the number of pre-approved prior learning credits that may count toward the degree requirements according to institutional policies, which may consider any existing credits you may have.</p>
       </div>
+
+      <div class='explore'>
+        <p class='explorecoursera'>Explore Coursera</p>
+      </div>
+
+    {/* Rectangular Cards Section */}
+    <div className="rectcards-section">
+        <div className="rectcards-container">
+          <RectCard
+            rectImg={RectCardImage1}
+            rectText="Data Science"
+            rectDesc="Learn data analysis and visualization."
+          />
+          <RectCard
+            rectImg={RectCardImage2}
+            rectText="Web Development"
+            rectDesc="Master frontend and backend development."
+          />
+          <RectCard
+            rectImg={RectCardImage3}
+            rectText="Machine Learning"
+            rectDesc="Dive into AI and machine learning techniques."
+          />
+          <RectCard
+            rectImg={RectCardImage4}
+            rectText="Digital Marketing"
+            rectDesc="Enhance your marketing strategies."
+          />
+        </div>
+      </div>
     </div>
+    
+
+    
   );
 };
 
