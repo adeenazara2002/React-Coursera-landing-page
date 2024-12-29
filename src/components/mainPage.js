@@ -164,6 +164,16 @@ const MainBody = () => {
           />
         </div>
       </div>
+
+      {/* Two Buttons  */}
+
+      <div className="buttons-container">
+        <button className="blue-btn">Show 8 More</button>
+        <button className="outline-btn">
+          View All
+          <span className="arrow">→</span>
+        </button>
+      </div>
     </div>
   );
 };
