@@ -19,7 +19,6 @@ import NewCardImage2 from "../Images/hanbury.png";
 import NewCardImage3 from "../Images/karrim.png";
 import NewCardImage4 from "../Images/gcc.png";
 
-// import google from "../Images/googleIcon.png";
 
 const MainBody = () => {
   return (
@@ -173,6 +172,13 @@ const MainBody = () => {
           View All
           <span className="arrow">→</span>
         </button>
+      </div>
+      <div className="text-section">
+        <p className="spec">Course and Professional Certificates</p>
+        <p className="most">New on Coursera</p>
+        <p className="explore">
+          Explore our newest programs, focused on delivering in-demand skills.
+        </p>
       </div>
     </div>
   );
