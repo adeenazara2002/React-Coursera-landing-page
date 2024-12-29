@@ -328,8 +328,6 @@
   line-height: 0%;
 }
 
-/* New Cards Section */
-
 .new-cardssection {
   display: flex;
   flex-direction: row;
@@ -342,17 +340,15 @@
   background-color: #fff;
   border: 1px solid #f2f5fa;
   border-radius: 10px;
-  /* padding: 20px; */
-  /* margin-right: 20px; */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover Effect */
 .new-cardssection .newcard:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
+
 .newcard {
   width: 100%;
   max-width: 280px;
@@ -361,25 +357,37 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  text-align: center;
-  position: relative; /* Ensure the image respects the card's layout */
+  text-align: left; /* Align card content to the left */
+  position: relative;
 }
 
 .newcard .newcardimg {
-  width: calc(100% - 8px); /* Reduce the width adjustment for smaller spacing */
-  height: auto; /* Maintain aspect ratio */
-  margin: 4px; 
+  width: calc(100% - 8px);
+  height: auto;
+  margin: 4px;
   border: 1px solid transparent;
-  border-radius: 10px; /* Optional: Adjust for rounded corners */
-  display: block; /* Ensure the image is centered within the card */
+  border-radius: 10px;
+  display: block;
 }
 
-.newcard .newmainText{
-  margin-left: 0px;
+.card-content {
+  padding: 10px 0; /* Add some spacing above and below the text */
 }
-.newcard .newsubText{
-  margin-left: 0px;
+
+.newmainText {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
 }
-.newcard .newfooterText{
-  margin-left: 0px;
+
+.newsubText {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.newfooterText {
+  margin: 0;
+  font-size: 0.9em;
+  color: #888;
 }
