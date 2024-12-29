@@ -27,6 +27,10 @@ import RectCardImage1 from "../Images/data_science.png";
 import RectCardImage2 from "../Images/business.png";
 import RectCardImage3 from "../Images/computer_science.png";
 import RectCardImage4 from "../Images/health.png";
+import RectCardImage5 from "../Images/information_technology.png";
+import RectCardImage6 from "../Images/language_learning.png";
+import RectCardImage7 from "../Images/math_and_logic.png";
+import RectCardImage8 from "../Images/arts_and_humanities.png";
 
 
 const MainBody = () => {
@@ -260,6 +264,35 @@ const MainBody = () => {
           />
         </div>
       </div>
+
+      <div className="rectcards-section">
+        <div className="rectcards-container">
+          <RectCard
+            rectImg={RectCardImage5}
+            rectText="Data Science"
+            rectDesc="Learn data analysis and visualization."
+          />
+          <RectCard
+            rectImg={RectCardImage6}
+            rectText="Web Development"
+            rectDesc="Master frontend and backend development."
+          />
+          <RectCard
+            rectImg={RectCardImage7}
+            rectText="Machine Learning"
+            rectDesc="Dive into AI and machine learning techniques."
+          />
+          <RectCard
+            rectImg={RectCardImage8}
+            rectText="Digital Marketing"
+            rectDesc="Enhance your marketing strategies."
+          />
+        </div>
+      </div>
+
+      
+
+      
     </div>
     
 

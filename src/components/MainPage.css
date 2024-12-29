@@ -438,22 +438,23 @@
 .outline-btn:hover .arrow {
   color: #0056b3;
 }
-.bottomTextDiv{
+.bottomTextDiv {
   margin-left: 60px;
 }
-.bottomText{
+.bottomText {
   font-size: 1rem;
 }
-.explore{
+.explore {
   margin-left: 60px;
 }
-.explorecoursera{
+.explorecoursera {
   font-size: 3rem;
 }
 
+/* Rectangular card section */
 .rectcard {
   display: flex;
-  width: 100%; 
+  width: 100%;
   height: 100px;
   max-width: 500px;
   margin: 10px auto;
@@ -464,8 +465,8 @@
 }
 
 .rectcard-image {
-  flex: 0 0 30%; /* Image covers 30% of the card */
-  height: 100%; /* Adjust height to fit the card */
+  flex: 0 0 30%;
+  height: 100%;
   background-color: #f9f9f9;
 }
 
@@ -476,7 +477,7 @@
 }
 
 .rectcard-content {
-  flex: 1 1 70%; /* Text covers 70% of the card */
+  flex: 1 1 70%;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -486,13 +487,13 @@
   font-size: 18px;
   font-weight: bold;
   color: #222;
-  margin-bottom: 0; /* Remove space below the title */
+  margin-bottom: 0;
 }
 
 .rectcard-description {
   font-size: 14px;
   color: #555;
-  margin-top: 0; /* Remove space above the description */
+  margin-top: 0;
 }
 
 .rectcards-section {
@@ -500,15 +501,8 @@
   background-color: #f9f9f9;
 }
 
-/* .rectcards-title {
-  font-size: 24px;
-  text-align: center;
-  color: #333;
-} */
-
 .rectcards-container {
   display: flex;
-  flex-direction: row; /* Arrange cards vertically */
-  gap: 10px; /* Add space between cards */
+  flex-direction: row;
+  gap: 10px;
 }
-
