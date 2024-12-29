@@ -18,7 +18,10 @@ import NewCardImage1 from "../Images/ashley.png";
 import NewCardImage2 from "../Images/hanbury.png";
 import NewCardImage3 from "../Images/karrim.png";
 import NewCardImage4 from "../Images/gcc.png";
-
+import NewnewCardImage1 from "../Images/python.png";
+import NewnewCardImage2 from "../Images/bba.png";
+import NewnewCardImage3 from "../Images/excelPersons.png";
+import NewnewCardImage4 from "../Images/xbox.png";
 
 const MainBody = () => {
   return (
@@ -180,7 +183,37 @@ const MainBody = () => {
           Explore our newest programs, focused on delivering in-demand skills.
         </p>
       </div>
-    </div>
+
+       {/* New new Cards Section */}
+       <div className="new-cardssection">
+          <NewCard
+            newimageSrc={NewnewCardImage1}
+            // iconSrc={google}
+            mainText="Google Certification"
+            subText="Master the skills required for a Google-recognized career."
+          />
+          <NewCard
+            newimageSrc={NewnewCardImage2}
+            // iconSrc={google}
+            mainText="Google Cloud"
+            subText="Become a certified Google Cloud expert."
+          />
+          <NewCard
+            newimageSrc={NewnewCardImage3}
+            // iconSrc={google}
+            mainText="Google Analytics"
+            subText="Learn analytics to track and grow your business."
+          />
+
+          <NewCard
+            newimageSrc={NewnewCardImage4}
+            // iconSrc={google}
+            mainText="Google Analytics"
+            subText="Learn analytics to track and grow your business."
+          />
+        </div>
+      </div>
+    
   );
 };
 
