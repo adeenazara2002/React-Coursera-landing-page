@@ -184,36 +184,47 @@ const MainBody = () => {
         </p>
       </div>
 
-       {/* New new Cards Section */}
-       <div className="new-cardssection">
-          <NewCard
-            newimageSrc={NewnewCardImage1}
-            // iconSrc={google}
-            mainText="Google Certification"
-            subText="Master the skills required for a Google-recognized career."
-          />
-          <NewCard
-            newimageSrc={NewnewCardImage2}
-            // iconSrc={google}
-            mainText="Google Cloud"
-            subText="Become a certified Google Cloud expert."
-          />
-          <NewCard
-            newimageSrc={NewnewCardImage3}
-            // iconSrc={google}
-            mainText="Google Analytics"
-            subText="Learn analytics to track and grow your business."
-          />
+      {/* New new Cards Section */}
+      <div className="new-cardssection">
+        <NewCard
+          newimageSrc={NewnewCardImage1}
+          // iconSrc={google}
+          mainText="Python Certification"
+          subText="Master the skills required for a Python-recognized career."
+        />
+        <NewCard
+          newimageSrc={NewnewCardImage2}
+          // iconSrc={google}
+          mainText="Google Cloud"
+          subText="Become a certified Google Cloud expert."
+        />
+        <NewCard
+          newimageSrc={NewnewCardImage3}
+          // iconSrc={google}
+          mainText="Excel"
+          subText="Learn analytics to track and grow your business."
+        />
 
-          <NewCard
-            newimageSrc={NewnewCardImage4}
-            // iconSrc={google}
-            mainText="Google Analytics"
-            subText="Learn analytics to track and grow your business."
-          />
-        </div>
+        <NewCard
+          newimageSrc={NewnewCardImage4}
+          // iconSrc={google}
+          mainText="Xbox"
+          subText="Learn analytics to track and grow your business."
+        />
       </div>
-    
+      {/* Two Buttons  */}
+
+      <div className="buttons-container">
+        <button className="blue-btn">Show More</button>
+        <button className="outline-btn">
+          View All
+          <span className="arrow">→</span>
+        </button>
+      </div>
+      <div class='bottomTextDiv'>
+        <p class='bottomText'>Each university determines admission and the number of pre-approved prior learning credits that may count toward the degree requirements according to institutional policies, which may consider any existing credits you may have.</p>
+      </div>
+    </div>
   );
 };
 

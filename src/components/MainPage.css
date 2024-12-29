@@ -438,3 +438,9 @@
 .outline-btn:hover .arrow {
   color: #0056b3;
 }
+.bottomTextDiv{
+  margin-left: 60px;
+}
+.bottomText{
+  font-size: 1rem;
+}
