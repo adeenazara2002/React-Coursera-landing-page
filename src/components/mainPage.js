@@ -10,9 +10,16 @@ import Logo6 from "../Images/stanford.png";
 import Logo7 from "../Images/penn.png";
 import Logo8 from "../Images/ibm.png";
 import Card from "./card";
+import NewCard from "./newCard";
 import CardImage1 from "../Images/person1.png";
 import CardImage2 from "../Images/person2.png";
 import CardImage3 from "../Images/person3.png";
+import NewCardImage1 from "../Images/ashley.png";
+import NewCardImage2 from "../Images/hanbury.png";
+import NewCardImage3 from "../Images/karrim.png";
+import NewCardImage4 from "../Images/gcc.png";
+
+// import google from "../Images/googleIcon.png";
 
 const MainBody = () => {
   return (
@@ -22,13 +29,14 @@ const MainBody = () => {
         {/* Left Section */}
         <div className="left-section">
           <h1>
-            Learn without <br></br>limits
+            Learn without <br />
+            limits
           </h1>
           <p>
             Professional Certificates, and degrees from world-class universities
-            <br></br>
+            <br />
             Start, switch, or advance your career with more than 10,000 courses,
-            <br></br>
+            <br />
             and companies
           </p>
           <div className="buttons">
@@ -113,10 +121,48 @@ const MainBody = () => {
           </div>
         </div>
       </div>
-      <div class='text-section'>
-        <p class='spec'>Specializations and Professional Certificates</p>
-        <p class='most'>Most Popular Certificates</p>
-        <p class='explore'>Explore our most popular programs, get job-ready for an in-demand career.</p>
+
+      {/* New Text Section */}
+      <div className="text-section">
+        <p className="spec">Specializations and Professional Certificates</p>
+        <p className="most">Most Popular Certificates</p>
+        <p className="explore">
+          Explore our most popular programs, get job-ready for an in-demand
+          career.
+        </p>
+
+        {/* New Cards Section */}
+        <div className="new-cardssection">
+          <NewCard
+            newimageSrc={NewCardImage1}
+            // iconSrc={google}
+            mainText="Google Certification"
+            subText="Master the skills required for a Google-recognized career."
+            footerText="Build your professional portfolio with Google."
+          />
+          <NewCard
+            newimageSrc={NewCardImage2}
+            // iconSrc={google}
+            mainText="Google Cloud"
+            subText="Become a certified Google Cloud expert."
+            footerText="Gain cloud computing expertise."
+          />
+          <NewCard
+            newimageSrc={NewCardImage3}
+            // iconSrc={google}
+            mainText="Google Analytics"
+            subText="Learn analytics to track and grow your business."
+            footerText="Advance your digital marketing skills."
+          />
+
+          <NewCard
+            newimageSrc={NewCardImage4}
+            // iconSrc={google}
+            mainText="Google Analytics"
+            subText="Learn analytics to track and grow your business."
+            footerText="Advance your digital marketing skills."
+          />
+        </div>
       </div>
     </div>
   );

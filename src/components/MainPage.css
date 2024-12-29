@@ -132,7 +132,7 @@
 .blue-section {
   display: flex;
   width: 1400px;
-  height: 550px;
+  height: 620px;
   /* background-color: pink; */
   background-color: #f2f5fa;
   border: 1px solid #f2f5fa;
@@ -293,37 +293,93 @@
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
-.card img {
+.card .cardimg {
   width: 100%;
   max-height: 200px;
   object-fit: cover;
 }
 
-.card h3 {
+.card .cardheading1 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.card p {
+.card .cardtext1 {
   font-size: 1rem;
   color: #333;
 }
 
 /* styling section */
-.spec{
+.spec {
   margin-left: 60px;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.most{
+.most {
   margin-left: 60px;
   font-size: 2.5rem;
   line-height: 0%;
 }
 
-.explore{
+.explore {
   margin-left: 60px;
   font-size: 1.2rem;
   line-height: 0%;
+}
+
+/* New Cards Section */
+
+.new-cardssection {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.new-cardssection .newcard {
+  background-color: #fff;
+  border: 1px solid #f2f5fa;
+  border-radius: 10px;
+  /* padding: 20px; */
+  /* margin-right: 20px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.new-cardssection .newcard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.newcard {
+  width: 100%;
+  max-width: 280px;
+  background-color: #fff;
+  border: 1px solid #f2f5fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  position: relative; /* Ensure the image respects the card's layout */
+}
+
+.newcard .newcardimg {
+  width: calc(100% - 8px); /* Reduce the width adjustment for smaller spacing */
+  height: auto; /* Maintain aspect ratio */
+  margin: 4px; 
+  border: 1px solid transparent;
+  border-radius: 10px; /* Optional: Adjust for rounded corners */
+  display: block; /* Ensure the image is centered within the card */
+}
+
+.newcard .newmainText{
+  margin-left: 0px;
+}
+.newcard .newsubText{
+  margin-left: 0px;
+}
+.newcard .newfooterText{
+  margin-left: 0px;
 }
