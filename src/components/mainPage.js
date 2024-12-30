@@ -32,6 +32,9 @@ import RectCardImage6 from "../Images/language_learning.png";
 import RectCardImage7 from "../Images/math_and_logic.png";
 import RectCardImage8 from "../Images/arts_and_humanities.png";
 import BlueLeftChildImage from "../Images/outcomes.png";
+import CircularImg1 from "../Images/kenia.png";
+import CircularImg2 from "../Images/ryan.png";
+import CircularImg3 from "../Images/vishal.png";
 
 const MainBody = () => {
   return (
@@ -294,18 +297,66 @@ const MainBody = () => {
           />
         </div>
       </div>
-          {/* Blue Parent Section */}
-  
+      {/* Blue Parent Section */}
+
       <div className="blueParentDiv">
         <div className="blueLeftChild">
-          <img class='blueleftchildimg'src={BlueLeftChildImage} alt="img" />
+          <img class="blueleftchildimg" src={BlueLeftChildImage} alt="img" />
         </div>
         <div className="blueRightChild">
           {/* Add content for the right child here */}
-          <p class='learners'>Learner outcomes on Coursera</p>
-          <p class='learnersreport'><span class='learnersreportspan'>77% of learners report career benefits,</span> such as new<br></br>skills, increased pay, and new job opportunities. 2023<br></br><a href="#">Coursera Learner Outcomes Report</a></p>
+          <p class="learners">Learner outcomes on Coursera</p>
+          <p class="learnersreport">
+            <span class="learnersreportspan">
+              77% of learners report career benefits,
+            </span>{" "}
+            such as new<br></br>skills, increased pay, and new job
+            opportunities. 2023<br></br>
+            <a href="#">Coursera Learner Outcomes Report</a>
+          </p>
           <button className="joinBtn blueparentbtn">Join for free</button>
+        </div>
+      </div>
 
+      {/* below blue parent text section */}
+
+      <div class="belowBlueParentTextDiv">
+        <p class="belowBlueParentTextP1">From the Coursera community</p>
+        <p class="belowBlueParentTextP2">
+          162+ million people have already joined Coursera
+        </p>
+      </div>
+      {/* Coursera Community  section */}
+
+      <div class="courseraCommunitySection">
+        <div class="courseraCommunitySubSection">
+          <div class="circularimg">
+            <img src={CircularImg1} alt="img" />
+          </div>
+          <p class='courseraCommunitySectionP1'>Kenia R.</p>
+          <p class='courseraCommunitySectionP2'>United States</p>
+          <div class='courseracommunityline'></div>
+          <p class='courseraCommunitySectionP3'>“From taking courses on<br></br> Coursera, I gained a deep<br></br> understanding of the UX Design <br></br>process from start to finish. With<br></br> the knowledge I gained, I feel<br></br> prepared for entry-level jobs<br></br> and internships. I've been able<br></br> to apply the skills and<br></br> knowledge I gained to multiple <br></br>projects and work experiences.”</p>
+        </div>
+
+        <div class="courseraCommunitySubSection">
+          <div class="circularimg">
+            <img src={CircularImg2} alt="img" />
+          </div>
+          <p class='courseraCommunitySectionP1'>Ryan L.</p>
+          <p class='courseraCommunitySectionP2'>United States</p>
+          <div class='courseracommunityline'></div>
+          <p class='courseraCommunitySectionP3'>“From taking courses on<br></br> Coursera, I gained a deep<br></br> understanding of the UX Design<br></br> process from start to finish. With<br></br> the knowledge I gained, I feel<br></br> prepared for entry-level jobs<br></br> and internships. I've been able<br></br> to apply the skills and <br></br>knowledge I gained to multiple<br></br> projects and work experiences.”</p>
+        </div>
+
+        <div class="courseraCommunitySubSection">
+          <div class="circularimg">
+            <img src={CircularImg3} alt="img" />
+          </div>
+          <p class='courseraCommunitySectionP1'>Vishal V.</p>
+          <p class='courseraCommunitySectionP2'>India</p>
+          <div class='courseracommunityline'></div>
+          <p class='courseraCommunitySectionP3'>“I really enjoyed my courses.<br></br> The quizzes, videos, and quick<br></br> labs provided helpful hands-on <br></br>experience. Learning on<br></br> Coursera has given me the <br></br>confidence and ability to excel<br></br> in my career. I love this feeling.”</p>
         </div>
       </div>
     </div>
