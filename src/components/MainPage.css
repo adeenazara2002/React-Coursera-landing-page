@@ -506,3 +506,47 @@
   flex-direction: row;
   gap: 10px;
 }
+
+/* Blue Parent styling */
+
+.blueParentDiv {
+  display: flex;
+  margin-top: 20px;
+  background-color: #f2f5fa;
+  height: 550px;
+  width: 100%;
+}
+.blueLeftChild {
+  width: 50%;
+  height: 500px;
+  /* background-color: #0056b3; */
+}
+.blueleftchildimg{
+  margin-left: 60px;
+}
+
+.blueRightChild {
+  width: 50%;
+  height: 500px;
+  /* background-color: #5b6780; */
+  align-items: center;
+}
+.learners{
+  margin-top: 150px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.learnersreport{
+  font-size: 1.5rem;
+}
+.learnersreportspan{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.learnersreport a{
+ font-size: 1.5rem;
+ color: rgb(0, 86, 210);
+}
+.blueparentbtn{
+  margin-left: -2px;
+}

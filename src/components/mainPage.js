@@ -31,7 +31,7 @@ import RectCardImage5 from "../Images/information_technology.png";
 import RectCardImage6 from "../Images/language_learning.png";
 import RectCardImage7 from "../Images/math_and_logic.png";
 import RectCardImage8 from "../Images/arts_and_humanities.png";
-
+import BlueLeftChildImage from "../Images/outcomes.png";
 
 const MainBody = () => {
   return (
@@ -231,16 +231,21 @@ const MainBody = () => {
           <span className="arrow">→</span>
         </button>
       </div>
-      <div class='bottomTextDiv'>
-        <p class='bottomText'>Each university determines admission and the number of pre-approved prior learning credits that may count toward the degree requirements according to institutional policies, which may consider any existing credits you may have.</p>
+      <div class="bottomTextDiv">
+        <p class="bottomText">
+          Each university determines admission and the number of pre-approved
+          prior learning credits that may count toward the degree requirements
+          according to institutional policies, which may consider any existing
+          credits you may have.
+        </p>
       </div>
 
-      <div class='explore'>
-        <p class='explorecoursera'>Explore Coursera</p>
+      <div class="explore">
+        <p class="explorecoursera">Explore Coursera</p>
       </div>
 
-    {/* Rectangular Cards Section */}
-    <div className="rectcards-section">
+      {/* Rectangular Cards Section */}
+      <div className="rectcards-section">
         <div className="rectcards-container">
           <RectCard
             rectImg={RectCardImage1}
@@ -289,14 +294,21 @@ const MainBody = () => {
           />
         </div>
       </div>
+          {/* Blue Parent Section */}
+  
+      <div className="blueParentDiv">
+        <div className="blueLeftChild">
+          <img class='blueleftchildimg'src={BlueLeftChildImage} alt="img" />
+        </div>
+        <div className="blueRightChild">
+          {/* Add content for the right child here */}
+          <p class='learners'>Learner outcomes on Coursera</p>
+          <p class='learnersreport'><span class='learnersreportspan'>77% of learners report career benefits,</span> such as new<br></br>skills, increased pay, and new job opportunities. 2023<br></br><a href="#">Coursera Learner Outcomes Report</a></p>
+          <button className="joinBtn blueparentbtn">Join for free</button>
 
-      
-
-      
+        </div>
+      </div>
     </div>
-    
-
-    
   );
 };
 
